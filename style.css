@@ -1620,7 +1620,9 @@ input:required {
   padding: 20px; }
 
 .contact-area .contact-title {
-  font-size: 56px; }
+  font-size: 56px; 
+  text-align: center;  
+}
   @media only screen and (max-width: 767px) {
     .contact-area .contact-title {
       font-size: 30px; } }
@@ -1632,6 +1634,11 @@ input:required {
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .contact-area .contact-info a {
       font-size: 14px; } }
+
+.middle-box{
+  width: fit-content;
+  align-self: center;
+}
 
 #map {
   height: 600px;
