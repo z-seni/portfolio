@@ -1653,3 +1653,112 @@ input:required {
     border-radius: 10px; }
 
 /*# sourceMappingURL=style.css.map */
+
+/* Video Categories */
+.video-categories-area {
+  padding-top: 80px; }
+
+.video-cat-row {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 50px;
+  border-top: 1px solid #ebebeb;
+  padding-top: 30px; }
+
+.video-cat-label {
+  min-width: 160px;
+  padding-right: 30px;
+  padding-top: 6px; }
+
+.video-cat-label h5 {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #252525;
+  margin: 0; }
+
+.video-cat-items {
+  flex: 1; }
+
+.video-title {
+  font-size: 11px;
+  color: #636363;
+  margin-top: 8px;
+  margin-bottom: 0;
+  text-align: center; }
+
+.video-views {
+  font-size: 10px;
+  color: #aaaaaa;
+  margin-top: 2px;
+  margin-bottom: 0;
+  text-align: center; }
+
+/* Consistent thumbnail height — 16:9 for normal cards, 9:16 for small */
+.about-video-area img {
+  aspect-ratio: 16 / 9;
+  object-fit: cover; }
+
+.about-video-area--small img {
+  aspect-ratio: 9 / 16;
+  object-fit: cover; }
+
+/* Smaller play button for portrait/IG cards */
+.about-video-area--small .video-icon a {
+  height: 30px;
+  width: 30px;
+  font-size: 16px;
+  line-height: 34px;
+  background-color: rgba(0, 0, 0, 0.45);
+  border: 1px solid rgba(255, 255, 255, 0.9); }
+.about-video-area--small .video-icon a::after {
+  display: none; }
+
+/* Minimal play button — no pulsing ring */
+.about-video-area .video-icon a {
+  height: 36px;
+  width: 36px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  font-size: 20px;
+  line-height: 40px; }
+.about-video-area .video-icon a::after {
+  -webkit-animation: none;
+  animation: none;
+  display: none; }
+.about-video-area .video-icon a:hover,
+.about-video-area .video-icon a:focus {
+  background-color: rgba(255, 255, 255, 0.4); }
+.about-video-area .video-icon a:hover::after,
+.about-video-area .video-icon a:focus::after {
+  display: none; }
+
+/* Minimal + button — no image zoom, no slide */
+.single-portfolio-content .hover-content a {
+  width: 32px;
+  height: 32px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  font-size: 18px;
+  line-height: 32px;
+  margin-left: -16px; }
+.single-portfolio-content .hover-content a:hover,
+.single-portfolio-content .hover-content a:focus {
+  background-color: rgba(255, 255, 255, 0.15); }
+.single-portfolio-content:hover img,
+.single-portfolio-content:focus img {
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none; }
+.single-portfolio-content:hover .hover-content a,
+.single-portfolio-content:focus .hover-content a {
+  margin-top: -16px; }
+
+@media (max-width: 767px) {
+  .video-cat-row {
+    flex-direction: column; }
+  .video-cat-label {
+    min-width: unset;
+    margin-bottom: 16px;
+    padding-right: 0; } }

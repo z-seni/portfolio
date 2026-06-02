@@ -1,10 +1,179 @@
-https://www.youtube.com/playlist?list=PLVJLgYLiBUm6ihx7QbULnvudtrfCiI4qf - dostop
-https://www.youtube.com/watch?v=0yDbQjU3o_U - dan z gasilci
-https://www.youtube.com/watch?v=FhWaGGp0ptM - pustovanje
+<!DOCTYPE html>
+<html lang="en">
 
-<div class="about-video-area mb-80 wow fadeInUp" data-wow-delay="100ms" style="visibility: visible; animation-delay: 100ms; animation-name: fadeInUp;">
-    <img src="img/bg-img/17.jpg" alt="">
-    <div class="video-icon">
-        <a href="https://www.youtube.com/watch?v=FhWaGGp0ptM" class="video-play-btn"><i class="arrow_triangle-right"></i></a>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title -->
+    <title>Videos</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="./img/core-img/favicon.png">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader"></div>
     </div>
-</div>
+    <!-- /Preloader -->
+
+    <!-- Header Area Start -->
+    <header class="header-area">
+        <div class="main-header-area">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
+                    <nav class="classy-navbar justify-content-between" id="alimeNav">
+
+                        <!-- Logo -->
+                        <a class="nav-brand" href="./index.html"><img src="./img/core-img/logo.png" alt=""></a>
+
+                        <!-- Navbar Toggler -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+
+                        <!-- Menu -->
+                        <div class="classy-menu">
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+                            <div class="classynav">
+                                <ul id="nav">
+                                    <li><a href="./index.html">Home</a></li>
+                                    <li><a href="./about.html">About</a></li>
+                                    <li><a href="./contact.html">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header Area End -->
+
+    <!-- Breadcrumb Area Start -->
+    <section class="breadcrumb-area bg-img bg-overlay jarallax" style="background-image: url(img/bg-img/3.jpg);">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12">
+                    <div class="breadcrumb-content text-center">
+                        <h2 class="page-title">Videos</h2>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb justify-content-center">
+                                <li class="breadcrumb-item"><a href="index.html"><i class="icon_house_alt"></i> Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Videos</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Breadcrumb Area End -->
+
+    <!-- Video Categories Area Start -->
+    <section class="video-categories-area section-padding-80-0">
+        <div class="container-fluid" id="video-categories">
+        </div>
+    </section>
+    <!-- Video Categories Area End -->
+
+    <!-- Footer Area Start -->
+    <footer class="footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer-content d-flex align-items-center justify-content-between">
+                        <div class="copywrite-text">
+                            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                        </div>
+                        <div class="footer-logo">
+                            <a href="#"><img src="img/core-img/logo2.png" alt=""></a>
+                        </div>
+                        <div class="social-info">
+                            <a href="https://www.instagram.com/z.seni/" target="_blank"><i class="ti-instagram" aria-hidden="true"></i></a>
+                            <a href="https://www.facebook.com/zan.senicar.9" target="_blank"><i class="ti-facebook" aria-hidden="true"></i></a>
+                            <a href="https://www.youtube.com/channel/UCZHLnMwS01_CWqdjileuJ6A" target="_blank"><i class="ti-youtube" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Area End -->
+
+    <!-- **** All JS Files ***** -->
+    <script defer src="js/jquery.min.js"></script>
+    <script defer src="js/popper.min.js"></script>
+    <script defer src="js/bootstrap.min.js"></script>
+    <script defer src="js/alime.bundle.js"></script>
+    <script defer src="js/default-assets/active.js"></script>
+
+    <!-- Video data & renderer -->
+    <script src="js/video-stats.js"></script>
+    <script src="js/video-data.js"></script>
+    <script>
+      function ytThumb(url) {
+        var m = url.match(/[?&]v=([^&]+)/);
+        return m ? 'https://img.youtube.com/vi/' + m[1] + '/maxresdefault.jpg' : null;
+      }
+
+      function fmtViews(n) {
+        if (!n) return '';
+        if (n >= 1000000) return (n / 1000000).toFixed(1).replace(/\.0$/, '') + 'M likes';
+        if (n >= 1000)    return (n / 1000).toFixed(1).replace(/\.0$/, '') + 'k likes';
+        return n + ' likes';
+      }
+
+      var container = document.getElementById('video-categories');
+
+      VIDEO_CATEGORIES.forEach(function(cat) {
+        var col = cat.small ? 'col-6 col-sm-4 col-lg-2' : 'col-12 col-sm-6 col-lg-3';
+        var colLandscape = 'col-12 col-sm-6 col-lg-3';
+        var areaClass = cat.small ? 'about-video-area about-video-area--small' : 'about-video-area';
+        var videos = cat.videos.map(function(v) {
+          var thumb = v.thumb || ytThumb(v.url) || '';
+          var vCol = (cat.small && v.landscape) ? colLandscape : col;
+          var vAreaClass = (cat.small && v.landscape) ? 'about-video-area' : areaClass;
+          var urlKey = v.url.replace(/\/?$/, '/');
+          return '<div class="' + vCol + ' mb-30">'
+            + '<div class="' + vAreaClass + '">'
+            + '<img loading="lazy" src="' + thumb + '" alt="' + cat.label + '">'
+            + '<div class="video-icon">'
+            + '<a href="' + v.url + '" target="_blank" rel="noopener"><i class="arrow_triangle-right"></i></a>'
+            + '</div></div>'
+            + '<p class="video-title">' + v.title + '</p>'
+            + '<p class="video-views" data-url="' + urlKey + '"></p>'
+            + '</div>';
+        }).join('');
+
+        container.innerHTML +=
+          '<div class="video-cat-row">'
+          + '<div class="video-cat-label"><h5>' + cat.label + '</h5></div>'
+          + '<div class="video-cat-items row">' + videos + '</div>'
+          + '</div>';
+      });
+
+      if (typeof VIDEO_STATS !== 'undefined') {
+        document.querySelectorAll('.video-views').forEach(function(el) {
+          var url = el.getAttribute('data-url');
+          var count = VIDEO_STATS[url] || VIDEO_STATS[url.replace(/\/$/, '')];
+          if (count) el.textContent = fmtViews(count);
+        });
+      }
+    </script>
+
+</body>
+
+</html>
