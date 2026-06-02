@@ -53,28 +53,9 @@
                             <!-- Nav Start -->
                             <div class="classynav">
                                 <ul id="nav">
-                                    <li class="active"><a href="./index.html">Home</a></li>
-                                    <!-- <li><a href="#">Pages</a>
-                                        <ul class="dropdown">
-                                            <li><a href="./index.html">- Home</a></li>
-                                            <li><a href="./about.html">- About</a></li>
-                                            <li><a href="./gallery.html">- Gallery</a></li>
-                                            <li><a href="./blog.html">- Blog</a></li>
-                                            <li><a href="./single-blog.html">- Blog Details</a></li>
-                                            <li><a href="./contact.html">- Contact</a></li>
-                                            <li><a href="#">- Dropdown</a>
-                                                <ul class="dropdown">
-                                                    <li><a href="#">- Dropdown Item</a></li>
-                                                    <li><a href="#">- Dropdown Item</a></li>
-                                                    <li><a href="#">- Dropdown Item</a></li>
-                                                    <li><a href="#">- Dropdown Item</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li> -->
+                                    <li class="active"><a href="./index.html">Gallery</a></li>
+                                    <li><a href="./video.html">Videos</a></li>
                                     <li><a href="./about.html">About</a></li>
-                                    <!-- <li><a href="./gallery.html">Gallery</a></li>
-                                    <li><a href="./blog.html">Blog</a></li> -->
                                     <li><a href="./contact.html">Contact</a></li>
                                 </ul>
 
@@ -98,10 +79,11 @@
                         <!-- Welcome Text -->
                         <div class="col-12 col-lg-8 col-xl-6">
                             <div class="welcome-text">
-                                <h2 data-animation="bounceInUp" data-delay="100ms">Hello <br>I'm Žan</h2>
-                                <p data-animation="bounceInUp" data-delay="500ms">I love photography. I see how it is taken like that. I do not follow certain styles, philosophies or teachers.</p>
+                                <p data-animation="bounceInUp" data-delay="0ms" style="font-size:13px; letter-spacing:4px; text-transform:uppercase; color:rgba(255,255,255,0.7); margin-bottom:12px;">Photography & Video</p>
+                                <h2 data-animation="bounceInUp" data-delay="100ms">I'm Žan.</h2>
+                                <p data-animation="bounceInUp" data-delay="500ms">Light changes everything.<br>I just wait for it.</p>
                                 <div class="hero-btn-group" data-animation="bounceInUp" data-delay="900ms">
-                                <!-- <a class="hero-mail-contact" href="mailto:hello.alime@gmail.com">zan.senicar100@gmail.com</a> -->
+                                    <a class="btn alime-btn" href="about.html" style="margin-top:24px;">About me</a>
                                 </div>
                             </div>
                         </div>
@@ -3769,6 +3751,16 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script defer src="js/alime.bundle.js"></script>
     <!-- Active -->
     <script defer src="js/default-assets/active.js"></script>
+
+    <script>
+      window.addEventListener('load', function() {
+        setTimeout(function() {
+          document.querySelectorAll('img[loading="lazy"]').forEach(function(img) {
+            img.loading = 'eager';
+          });
+        }, 500);
+      });
+    </script>
 
 </body>
 
