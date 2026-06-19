@@ -1,4 +1,5 @@
 const VIDEO_STATS = {
   "https://www.instagram.com/majskeigre/reel/DYyzFr_oAKX/": 534,
-  "_updated": "2026-06-18T10:40:22Z"
+  "https://www.instagram.com/dostop.si/reel/C0y2bz5oPRo/": 201,
+  "_updated": "2026-06-19T10:48:07Z"
 };
