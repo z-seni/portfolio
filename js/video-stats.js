@@ -1,3 +1,3 @@
 const VIDEO_STATS = {
-  "_updated": "2026-07-01T10:01:35Z"
+  "_updated": "2026-07-02T09:23:54Z"
 };
