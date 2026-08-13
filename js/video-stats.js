@@ -15,7 +15,6 @@ const VIDEO_STATS = {
   "https://www.instagram.com/dostop.si/reel/C7OWhZ6o5sf/": 328,
   "https://www.instagram.com/dostop.si/reel/C7rh2lTIcd0/": 297,
   "https://www.instagram.com/dostop.si/reel/C7t8W6NorxI/": 142,
-  "https://www.instagram.com/dostop.si/reel/C7wpLxWoXEg/": 180,
   "https://www.instagram.com/dostop.si/reel/DZFz_dks60K/": 552,
   "https://www.instagram.com/lampioncki/reel/DKH4MkNIUvx/": 122,
   "https://www.instagram.com/lampioncki/reel/DKAlsfqIEON/": 355,
@@ -26,5 +25,5 @@ const VIDEO_STATS = {
   "https://www.instagram.com/unizup/reel/C7yfMAIisU2/": 68,
   "https://www.instagram.com/unizup/reel/C5IYLSgIPQT/": 27,
   "https://www.instagram.com/unizup/reel/C40BAwho5Ae/": 27,
-  "_updated": "2026-08-12T07:40:59Z"
+  "_updated": "2026-08-13T07:42:27Z"
 };
