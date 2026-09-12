@@ -4,8 +4,7 @@ const VIDEO_STATS = {
   "https://www.instagram.com/majskeigre/reel/DYhVJckoqBM/": 1033,
   "https://www.instagram.com/majskeigre/reel/DYchrS_u2PY/": 2610,
   "https://www.instagram.com/majskeigre/reel/DYMRdpVOij4/": 753,
-  "https://www.instagram.com/majskeigre/reel/DYHSGYoOqjI/": 300,
-  "https://www.instagram.com/majskeigre/reel/DKxRnMtI2Ml/": 284,
+  "https://www.instagram.com/majskeigre/reel/DKxRnMtI2Ml/": 283,
   "https://www.instagram.com/majskeigre/reel/DJzy7CtIXf6/": 298,
   "https://www.instagram.com/dostop.si/reel/C3XQUWWo_Hp/": 281,
   "https://www.instagram.com/dostop.si/reel/C3cTMHrIaNZ/": 71,
@@ -26,5 +25,5 @@ const VIDEO_STATS = {
   "https://www.instagram.com/unizup/reel/C7yfMAIisU2/": 68,
   "https://www.instagram.com/unizup/reel/C5IYLSgIPQT/": 27,
   "https://www.instagram.com/unizup/reel/C40BAwho5Ae/": 27,
-  "_updated": "2026-09-11T10:59:52Z"
+  "_updated": "2026-09-12T10:27:38Z"
 };
