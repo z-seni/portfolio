@@ -26,5 +26,5 @@ const VIDEO_STATS = {
   "https://www.instagram.com/unizup/reel/C7yfMAIisU2/": 68,
   "https://www.instagram.com/unizup/reel/C5IYLSgIPQT/": 27,
   "https://www.instagram.com/unizup/reel/C40BAwho5Ae/": 27,
-  "_updated": "2026-09-15T11:29:10Z"
+  "_updated": "2026-09-16T11:14:58Z"
 };
