@@ -21,10 +21,10 @@ const VIDEO_STATS = {
   "https://www.instagram.com/lampioncki/reel/DKAlsfqIEON/": 355,
   "https://www.instagram.com/jakopinblanka/reel/DAjYJU6oM6E/": 83,
   "https://www.instagram.com/reel/C01uclqIhXu/": 13,
-  "https://www.instagram.com/unizup/reel/C8XNCGFommx/": 95,
+  "https://www.instagram.com/unizup/reel/C8XNCGFommx/": 94,
   "https://www.instagram.com/unizup/reel/C7ylQAKCOzy/": 43,
   "https://www.instagram.com/unizup/reel/C7yfMAIisU2/": 68,
   "https://www.instagram.com/unizup/reel/C5IYLSgIPQT/": 27,
   "https://www.instagram.com/unizup/reel/C40BAwho5Ae/": 27,
-  "_updated": "2026-10-02T12:14:45Z"
+  "_updated": "2026-10-03T11:25:55Z"
 };
